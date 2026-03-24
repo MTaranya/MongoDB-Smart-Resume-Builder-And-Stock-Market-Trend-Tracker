@@ -4,6 +4,7 @@ Smart Resume Builder & Stock Market Trend Tracker
 This project is developed using MongoDB, a NoSQL database that stores data in the form of flexible JSON-like documents. The system consists of two main modules:
 
 🔹 1. Smart Resume Builder
+
 The Resume Builder module is used to store and manage candidate information.
 It includes:
 Personal details (Name, Email)
@@ -15,6 +16,7 @@ To perform operations like adding, updating, viewing, and deleting resumes
 To ensure data correctness using validation rules
 
 🔹 2. Stock Market Trend Tracker
+
 This module stores and tracks stock-related data.
 It includes:
 Company name
@@ -40,7 +42,9 @@ Why:
 Collections are used to store related data
 Separating resume and stock data improves organization
  2. Insertion 
+
 What is done:
+
 Data is inserted using:
 insertOne() → inserts a single document
 insertMany() → inserts multiple documents
@@ -83,6 +87,7 @@ Maintain clean and relevant database
  4. Validation & Verification 
 
 🔹 Validation
+
 Validation is implemented using JSON Schema in MongoDB.
 In Resume Collection:
 name → must be string
